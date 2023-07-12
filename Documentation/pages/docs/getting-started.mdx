@@ -527,7 +527,7 @@ func schema() throws -> Schema<Resolver, Context> {
         }
 
         Subscription {
-            SubsciptionField("bookAdded", as: Book.self, atSub: Resolver.bookAdded)
+            SubscriptionField("bookAdded", as: Book.self, atSub: Resolver.bookAdded)
         }
     }
 }
